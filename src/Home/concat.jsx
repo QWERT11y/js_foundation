@@ -20,7 +20,7 @@ const Contact = () => {
     e.preventDefault();
     console.log("Форма отправлена:", formData);
     setSubmitted(true);
-    setTimeout(() => setSubmitted(false), 3000); // 3 soniyadan keyin tasdiqni yo‘q qilish
+    setTimeout(() => setSubmitted(false), 3000)
     setFormData({ name: "", email: "", message: "" });
   };
 
